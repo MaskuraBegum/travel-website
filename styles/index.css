@@ -8,7 +8,7 @@ main {
     margin: 0 135px;
 }
 
-ul{
+ol{
     list-style: none;
     display: flex;
 }
@@ -16,7 +16,7 @@ li>a{
     margin-right: 44px;
     text-decoration: none;
 }
-span{
+.travle-nav span{
     color:#FF5400
 }
 .main-titel{
@@ -28,6 +28,9 @@ span{
     text-align:center;
     
 }
+nav{
+    margin:50px 0px;
+}
 .nav-img{
     width: 40px 30px;
  }
@@ -35,6 +38,9 @@ span{
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
+hr{
+    width: 874px;
 }
 
 .select1,
@@ -574,7 +580,7 @@ footer{
     footer{
         height: 300px;
     }
-    ul{
+    ol{
         display: none;
     }
     .hide-icon{
