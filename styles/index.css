@@ -227,27 +227,103 @@ li {
 }
 
 .box {
-    
+
     width: 573px;
     height: 284px;
     margin: 0 auto;
 
 }
-.section-content{
+
+.section-content {
     width: 643px;
     text-align: center;
     margin: 0 auto;
 }
-.card-titel{
+
+.card-titel {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
 }
-.card-text{
+
+.card-text {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
 }
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    margin: 0px 24px 0px 0px;
+    width: 474px;
+    height: 322px;
+}
+
+.click {
+    padding: 16px 0 16px 20px;
+    width: 375px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.arrow {
+    padding: 16px 0 16px 20px;
+    width: 400px;
+}
+
+
+.news-titel {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-text {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-img button {
+    position: relative;
+    top: -175px;
+    left: 340px;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.com {
+    font-size: 24px;
+    font-weight: 400;
+}
+
 
 @media screen and (max-width:600px) {
     header {
@@ -345,7 +421,6 @@ li {
     }
 
     .destination-titel {
-
         font-size: 20px;
     }
 
@@ -362,45 +437,77 @@ li {
     }
 
     .sri {
-        position: relative;
         top: -920px;
         left: -100px;
     }
 
     .namerica {
-        position: relative;
         top: -730px;
         left: -200px;
     }
 
     .kashmir {
-        position: relative;
         top: -520px;
         left: -320px;
     }
 
     .bangladesh {
-        position: relative;
         top: -340px;
         left: -450px;
     }
 
     .bandarban {
-        position: relative;
         top: -130px;
         left: -590px;
     }
-    .section-card{
+
+    .section-card {
         flex-direction: column;
     }
-    .section-content{
+
+    .section-content {
         width: 300px;
     }
-    .card{
+
+    .card {
         width: 330px;
+        margin: 0 auto;
     }
-    .box{
-        margin: 0;
+    .box {
+        margin: 0 auto;
+    }
+
+    .newsletter-section {
+        flex-direction: column; 
+    }
+    
+    .newsletter {
+        width: 335px;
+        margin: 0px auto;
+        padding: 10px;
+    }
+    .news-img img{
+        margin: 16px 28px;
+    }
+
+    .newsletter-image {
+        width: 335px;
+        height: 290px;
+    }
+
+    .click {
+        width: 288px;
+    }
+
+    .btn1 {
+        font-size: 21.138px;
+        width: 214.023px;
+        height: 79.268px;
+    }
+
+    .news-img button {
+        top:-130px;
+        left:150px;
     }
 
 }
