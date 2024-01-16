@@ -17,7 +17,7 @@ header {
 }
 #input-txt{
     width: 174px;
-    padding: 17px;
+    /* padding: 17px; */
 }
 
 .input {
@@ -100,7 +100,7 @@ header {
     .select1, .input-text, .btn{
         width: 255px;
     }
-    #input-txt{
-        padding:  20px 32px;
-    }
+     #input-txt{
+        padding:  15px 65px 20px 10px;
+    } 
 }
