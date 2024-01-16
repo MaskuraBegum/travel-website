@@ -83,28 +83,122 @@ main {
     margin-top: 100px;
 }
 
-.tours-text {
+.tours-text,
+.destination-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
     margin-right: 50px;
 
 }
-.tours-description, li{
+
+.tours-description,
+li {
     margin: 24px 0px;
 }
-.primary{
+
+.primary {
     padding: 14px 35px;
 }
 
-.tours-titel {
+.tours-titel,
+.destination-titel {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
 }
-.tourimage{
+
+.tourimage {
     width: 540px;
     height: 550px;
+}
+
+/*destination section*/
+
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 24px;
+
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    gap: 24px;
+
+}
+
+.row3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 24px;
+
+}
+
+.destination-text {
+    text-align: center;
+    margin: 100px auto 50px;
+}
+
+.destination-description {
+    width: 623px;
+    margin: 0 auto;
+}
+
+.maldip,
+.indo,
+.sri,
+.namerica,
+.kashmir,
+.bangladesh,
+.bandarban {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.relative{
+    display: flex;
+}
+
+.maldip {
+    position: relative;
+    top: -840px;
+    left: 220px;
+}
+
+.indo {
+    position:relative;
+    top: -850px;
+    left: 700px;
+}
+
+.sri {  
+    position: relative;
+    top: -500px;
+    left: -100px;
+}
+.namerica{
+    position: relative;
+    top: -500px;
+    left: 190px;
+}
+.kashmir{
+    position: relative;
+    top: -500px;
+    left: 450px;
+}
+.bangladesh{
+    position: relative;
+    top: -200px;
+    left: -500px;  
+}
+.bandarban{
+    position: relative;
+    top: -200px;
+    left: -50px;  
 }
 
 @media screen and (max-width:600px) {
@@ -146,30 +240,103 @@ main {
     #input-txt {
         padding: 15px 65px 20px 10px;
     }
+
     .tours-container {
         flex-direction: column;
         margin: 0px;
     }
-    .tours-text{
+
+    .tours-text {
         margin: 24px 24px;
     }
-    .tours-titel{
+
+    .tours-titel {
         font-size: 1.3rem;
     }
-    .tours-img{
+
+    .tours-img {
         margin: 0 auto;
     }
-    .tourimage{
-       width: 330px;
-       height: 340px;
-       margin-top: 40px;
-    
+
+    .tourimage {
+        width: 330px;
+        height: 340px;
+        margin-top: 40px;
+
     }
-    main{
+
+    main {
         margin: 0px;
     }
-    .primary{
+
+    .primary {
         width: 50%;
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7 {
+        width: 335px;
+        height: 174px;
+        margin: 0 auto;
+    }
+
+    .destination-description {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .destination-titel {
+
+        font-size: 20px;
+    }
+
+    .maldip {
+        position: relative;
+        top: -1310px;
+        left: 150px;
+    }
+    
+    .indo {
+        position:relative;
+        top: -1100px;
+        left: 20px;
+    }
+    
+    .sri {  
+        position: relative;
+        top: -920px;
+        left: -100px;
+    }
+    .namerica{
+        position: relative;
+        top: -730px;
+        left: -200px;
+    }
+    .kashmir{
+        position: relative;
+        top: -520px;
+        left: -320px;
+    }
+    .bangladesh{
+        position: relative;
+        top: -340px;
+        left: -450px;  
+    }
+    .bandarban{
+        position: relative;
+        top: -130px;
+        left: -590px;  
     }
     
 }
