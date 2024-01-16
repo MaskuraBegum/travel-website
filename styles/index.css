@@ -3,7 +3,8 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
-header {
+header,
+main {
     margin: 0 135px;
 }
 
@@ -15,7 +16,8 @@ header {
     border-radius: 8px;
     color: rgba(19, 19, 24, 0.50);
 }
-#input-txt{
+
+#input-txt {
     width: 174px;
     /* padding: 17px; */
 }
@@ -73,34 +75,70 @@ header {
     width: 676px;
     margin: 24px auto 48px;
 }
+
+/*tours section*/
+.tours-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.tours-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 50px;
+
+}
+.tours-description, li{
+    margin: 24px 0;
+}
+.primary{
+    padding: 14px 35px;
+}
+
+.tours-titel {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 @media screen and (max-width:600px) {
-    header{
+    header {
         margin: 0px;
     }
-    .input{
+
+    .input {
         flex-direction: column;
         width: 287px;
         height: 288px;
         /* margin: 0 auto; */
     }
-    .header-banner{
+
+    .header-banner {
         background-size: 335px 483px;
     }
-    .banner-titel{
+
+    .banner-titel {
         font-size: 1.3rem;
         margin: 0;
     }
-    .banner-description{
+
+    .banner-description {
         font-size: 0.8rem;
         width: 304px;
     }
-    .header-container{
+
+    .header-container {
         padding: 30px 0;
     }
-    .select1, .input-text, .btn{
+
+    .select1,
+    .input-text,
+    .btn {
         width: 255px;
     }
-     #input-txt{
-        padding:  15px 65px 20px 10px;
-    } 
+
+    #input-txt {
+        padding: 15px 65px 20px 10px;
+    }
 }
