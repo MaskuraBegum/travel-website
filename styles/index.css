@@ -639,5 +639,8 @@ footer{
     .blogs-card{
         text-align: center;
     }
+    .blogs-card img {
+        width: 280px;
+    }
 
 }
